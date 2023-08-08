@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(45, 161, 61);
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+#menu a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+li:hover{
+    background-color: rgb(103, 229, 124);
+    
+}
+#banner{
+    text-align: center;
+    background-image: url("fundo_ods.jpg");
+    background-size: cover;
+    height: 600px;
+}
+#titulo{
+    color: rgb(10, 89, 21);
+    padding-top: 7%;
+    font-size: 60px;
+    line-height: 0.6;
+    text-align: center;
+}
+#subtitulo{
+    color: rgb(10, 89, 21);
+    text-align: center;
+    font-size: 30px;
+    padding-top:22%;
+}
+.divOds{
+    padding: 20px;
+    text-align: center;
+}
+.tituloODS{
+    text-align: center;
+}
+.descricao{
+    padding: 20px;
+    column-count: 3;
+}
+iframe{
+    max-width: 100%;
+    height: auto;
+}
